@@ -1,0 +1,21 @@
+{
+    "name": "daviti/myapp",
+    "type": "project",
+    "license": "mit",
+    "autoload":{
+        "psr-4":{
+            "myapp\\":"test/"
+        }
+
+    },
+    "authors": [
+        {
+            "name": "Davit",
+            "email": "dato_pkhakadze@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "nikic/fast-route": "^2.0@dev"
+    }
+}
